@@ -1,0 +1,54 @@
+body{
+	/*background-color: cyan;*/
+
+}
+
+.posters{
+	background-color: blue;
+	height: 600px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -8px;
+
+}
+.posters>img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.posters> .btn{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-style: none;
+	border-radius: 30px;
+	margin-top: 250px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #000;
+}
+.posters> #btn2{
+	position: relative;
+	float: right;
+}
+.dotted{
+	height: 50px;
+	width: 100px;
+	margin: 0 auto; 
+}
+.dot{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 5px;
+	cursor: pointer;
+
+
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
